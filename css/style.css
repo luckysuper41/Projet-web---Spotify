@@ -1098,6 +1098,295 @@ footer a small:hover{
 
 }
 
+@media(max-width:400px){
+    /*header*/
+
+
+    #headerr{
+      padding-top:5px;
+      min-height:50px;
+    }
+
+
+    .container{
+      width:90%;
+    }
+
+    header li{
+      padding: 0 5px 0 5px;
+    }
+
+    #boder-right-padding-right{
+        padding-right: 10px;
+    }
+    header #branding{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+    header #branding img{
+        width: 70px;
+    }
+
+    header nav{
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    header a.text-a-header{
+        color: #000;
+        font-size: 0.65rem;
+        font-weight: 600;
+    }
+
+    header a:hover{
+      font-size: 0.8rem;
+    }
+
+    .container-wrap{
+        min-height: 40vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        min-height: 40vh;
+    }
+
+    .wrapper-left{
+        padding-top: 18%;
+    }
+    .wrapper-right{
+        padding-top: 8%;
+    }
+
+    .text-tieude{
+    font-size: 1.35rem;
+    font-weight: 750;
+    line-height: 1.4rem;
+    }
+
+
+    .text-content{
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 0.7rem;
+    }
+
+    .text-buton{
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: rgb(29, 185, 84);
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(29, 185, 84);
+    border-radius: 40px;
+    color: #fff;
+    }
+    .text-buton:hover{
+        background: #3ec260;
+        padding: 0.6rem 1.1rem;
+        transition: all 0.1s ease-in-out;
+    }
+
+
+    /*PQ*/
+    .pourquoi{
+    padding: 30px 0;
+    }
+    .PQ-header{
+    padding-bottom: 20px;
+    }
+    .PQ-content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: start;
+    }
+    .PQ-icon{
+    padding: 0;
+    }
+    .text-tieudeto{
+    font-size: 1.7rem;
+    font-weight: 750;
+    line-height: 1.8rem;
+    }
+
+    .PQ-icon img{
+    width: 140px;
+    height: 140px;
+    }
+    .pq-ct1{
+        min-height: 5px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .pq-ct2{
+        min-height: 5px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .text-contentnho{
+        font-size: 0.95rem;
+        font-weight: 600;
+        line-height: 0.5rem;
+    }
+    .text-contentnhohon{
+        font-size: 0.8rem;
+    }
+
+    /*change*/
+
+    .change-body{  
+        width: 100%;
+        background: #f7faff;
+        padding: 30px 0;
+    }
+
+    .change img{
+        text-align: center;
+        width: 50px;
+        padding-bottom: 20px;
+    }
+
+    .text-tieudevua{
+    font-size: 1.4rem;
+    font-weight: 750;
+    line-height: 1.4rem;
+    }
+    /*offre*/
+
+    .offre-main{
+    padding: 30px 0;
+    }
+
+    .Offre-header{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .Offre-content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 1rem;
+    width: 65%;   
+    margin: auto;
+    justify-content: center;
+    text-align: left;
+    align-items: flex-start;
+    }
+    .text-offre-header{
+        font-size: 0.8rem;
+    }
+    .text-offre-3mois{
+    font-size: 0.85rem;
+    }
+    .text-offre-content{
+    font-size: 0.8rem;
+    }
+
+    .text-offre-tieude{
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-height: 20px;
+    }
+    .text-offre-phude{
+    font-size: 0.7rem;
+    }
+
+    .offre{
+    min-height: 40px;
+    }
+
+    .offre-list{
+    padding: 10px 0;
+    line-height: 20px;
+    padding-left: 20px;
+    }
+
+    .height40{
+    min-height: 30px;
+    }
+
+    .height60{
+    min-height: 40px;
+    }
+    .height90{
+    min-height: 60px;
+    }
+    .height200{
+        min-height: 170px;
+    }
+
+    .text-offre-buton{
+    font-size: 0.7rem;
+    padding: 0.5rem 2rem;
+    }
+    .text-offre-buton:hover{
+        padding: 0.6rem 2.1rem;
+    }
+
+    /*footer*/
+    .footer{
+    width: 100%;
+    background: #000;
+    position: relative;
+    min-height: 70px;
+    }
+    footer li{
+      padding: 0 5px 0 5px;
+    }
+
+    .footer-left{
+    padding-top: 36px;
+    }
+
+    .footer-right{
+        float: right;
+        padding-top: 18px;
+        padding-right: 20px;
+    }
+
+
+
+    .footer-right img{
+        display: inline;
+        width: 25%;
+    }   
+    .paddingtop10{
+    padding-top: 0px;
+}
+
+    .back-to-top {
+    right: 10px;
+    bottom: 10px;
+    font-size: 18px;
+    width:  24px;
+    height:  24px;
+    }
+
+    .back-to-top.show_btt:hover {
+    background: #737373;
+    transition: all 0.1s ease-in-out;
+    width:  26px;
+    height:  26px;
+    }
+
+    footer small{
+        font-size: 0.6rem;
+    }
+
+}
+
 
 @media(max-width:320px){
     /*header*/
